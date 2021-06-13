@@ -1,0 +1,187 @@
+*{
+    margin:0;
+	padding:0;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+header hr{
+    margin: 0;
+    width: 100%;
+    border: 5px solid #de0d22;
+}
+
+header h1{
+    margin: 5px 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav a{
+    width: 25%;
+    border: 1px solid #dbdada;
+    color: #595454;
+    padding: 10px 0px;
+}
+
+header nav a:hover{
+    width: 25%;
+    background-color: #595454;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+header nav li a:link{
+    text-decoration: none;
+}
+
+.centriranje{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+}
+
+.berlinSport, .kulturUndShow{
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0px;
+}
+
+.berlinSport h2 a, .kulturUndShow h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.berlinSport h2, .kulturUndShow h2{
+    width: 100%;
+    color: white;
+    background-color: orange;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+
+.berlinSport img, .kulturUndShow img{
+    width: 100%;
+}
+
+.berlinSport h5 a, .berlinSport h3 a, .kulturUndShow h5 a, .kulturUndShow h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.berlinSport h5 a, .berlinSport h3 a:hover{
+    color: orange;
+}
+
+.berlinSport h3, .berlinSport h5, .kulturUndShow h3, .kulturUndShow h5{
+    margin-left: 12px;
+}
+
+article h5, article h3{
+    text-align: left;
+}
+
+.kulturUndShow h2{
+    background-color: #de0d22;
+}
+
+.kulturUndShow h5 a, .kulturUndShow h3 a:hover{
+    color: #de0d22;
+}
+
+#gumbi button{
+    margin-top: 5px;
+}
+
+button{
+    background-color: #595454;
+    color: white;
+    padding: 5px 0px;
+    width: 100px;
+}
+
+button a, button a:hover{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: #606060;
+    margin-top: 20px;
+}
+
+footer div{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #7a7a7a;
+    padding: 50px 0px;
+}
+
+footer p{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    padding: 20px 0px;
+}
+
+form hr {
+    border: 1px solid #7a7a7a;
+}
+
+label{
+    color:#595454;
+}
+
+@media (max-width:1024px){
+    header nav ul{
+        display: grid;
+        width: 100%;
+    }
+    
+    header nav ul a, header nav ul a:hover{
+        width: 100%;
+    }
+
+    .centriranje{
+        width: 100%;
+    }
+
+    .berlinSport, .kulturUndShow{
+        width: 100%;
+    }
+
+    footer p, footer div{
+        width: 100%;
+        background-color: #606060;
+        color: #606060;
+    }
+}
+
+@media (min-width:1024px){
+    .centriranje{
+        width: 50%;
+    }
+    
+}
